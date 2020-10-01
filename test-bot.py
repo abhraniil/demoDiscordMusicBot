@@ -111,7 +111,7 @@ async def play(ctx, url: str):
             print('beta')
         elif not voice.is_playing():
             queue.clear()
-            print("No songs were queued before the ending of the last song\n")
+            
             ctx.send('No songs were queued before the ending of the last song\n')
             server = ctx.message.guild.voice_client
             server.disconnect()
