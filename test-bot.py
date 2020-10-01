@@ -144,4 +144,4 @@ async def add_to_queue(ctx, url: str):
     queue.put(url)
     await ctx.send('Song Added To Playlist')
 
-client.run("NzIzOTM4NTQ4OTAxODcxNzEz.Xu47BA.bzxsTx6a4-dLaruzkzDIRZxogDM")
+client.run("token-")
